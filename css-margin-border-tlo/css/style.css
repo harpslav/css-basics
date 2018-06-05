@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/goat.jpg");
+    background-attachment: fixed;
+/*    DEFAULT: background-attachment: scroll;*/
+    
+}
+p {
+   background-color: yellow;
+   text-align: justify;
+   border: 2px dashed #ff0000;    
+}
+
+p.margines {
+   margin-top: 20px;
+   margin-right: 50px;
+   margin-bottom: 20;
+   margin-left: 15px;
+   border: 5px inset #ff0000;    
+}
+
+
+
+p.dopelnienie {
+   padding-top: 20px;
+   padding-right: 50px;
+   padding-bottom: 0;
+   padding-left: 15px;
+   border: 5px groove #ff0000;    
+}
+
+p.obrazek {
+   padding-left: 65px;
+   background: #eeeeee left center repeat-y url('../images/zamek.jpg');
+}
+
+/*
+div {
+height: 600px;
+background-image: url(https://cdn.pixabay.com/photo/2018/05/31/15/06/not-hear-3444212_960_720.jpg);
+background-image: url("../images/goat.jpg");
+background-repeat: repeat-x;    
+}
+*/
+
+div {
+   padding-left: 65px;
+   background-image: url(https://cdn.pixabay.com/photo/2018/05/31/15/06/not-hear-3444212_960_720.jpg);
+   background-repeat: no-repeat;
+   background-attachment: local;
+   background-position: center center;
+}/
+
+footer {
+    background-color: aqua
+       
+   
+}
